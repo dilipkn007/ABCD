@@ -1,3 +1,10 @@
+if("serviceWorker" in navigator){
+    navigator.serviceWorker.register("sw.js").then(registration=>{
+        console.log(registration)
+    }).catch(error=>{
+        console.log(error)
+    })
+}
 var msg=new SpeechSynthesisUtterance()
 const speech = (alphabet) => {
     msg.text=alphabet

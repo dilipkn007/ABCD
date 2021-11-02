@@ -1,0 +1,23 @@
+{
+    "name":"ABCD",
+    "short_name":"Alphabet",
+    "description":"lite app to learn english alphabets",
+    "start_url":".",
+    "background_color":"#6dcdb1",
+    "theme_color":"#000024",
+    "display":"standalone",
+    "icons":[
+        {
+            "src":"logo500x500px.png",
+            "sizes":"500x500",
+            "type":"image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src":"logo520x520px.png",
+            "sizes":"520x520",
+            "type":"image/png",
+            "purpose": "any maskable"
+        }
+    ]
+}
