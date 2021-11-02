@@ -10,4 +10,3 @@ for (let index = 0; index < x.length; index++) {
         speech(x[index].innerHTML[0])
     })
 }
-
